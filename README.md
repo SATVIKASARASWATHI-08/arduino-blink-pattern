@@ -21,6 +21,17 @@ The LED blinks three times and then pauses for 2 seconds.
 The LED turns ON and OFF repeatedly for 3 cycles using a loop.
 After 3 blinks, the system pauses for 2 seconds before repeating.
 
+## Code Explanation
+- pinMode(): Sets the LED pin as output
+- digitalWrite(): Turns LED ON/OFF
+- delay(): Controls timing of blinking
+- for loop: Repeats blinking 3 times
+
+## Future Improvements
+- Add multiple LEDs (traffic light system)
+- Add sensors for real-time input
+- Convert simulation to hardware implementation
+
 ## Learning Outcome
 - Learned how to control an LED using Arduino
 - Understood how loops work in embedded programming
